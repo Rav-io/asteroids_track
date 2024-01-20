@@ -9,13 +9,36 @@ body {
 #calendar{
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .rdp{
-    --rdp-background-color: gray;;
+    --rdp-background-color: #009999;
+    --rdp-accent-color: #008080;
 }
 
 #info-box{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    width:40%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 2%;
+}
+.info-text{
+    display: block;
+}
+.name-link{
+    text-decoration: none;
+    color:white;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+.name-link:hover{
+    color:#009999;
+}
+.text-div{
+    text-align: center;
+    font-size: large;
 }
